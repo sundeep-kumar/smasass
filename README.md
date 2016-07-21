@@ -3,19 +3,31 @@
 SMASASS (pronounced as smaash!) is a flexible, modular and scalable project; boiler plate based on ideology of SMACSS by Jonathan Snook.
 
 It defines succinct separation of concoction items like:
+
 1. Layout
+
 2. Components
+
 3. Theme
+
 4. Base
+
 5. State
+
 6. Psuedo
+
 7. Typography
+
 8. Vendor lib
+
 9. Media Queries
 
 As state of an element can be represented in three categories:
+
 1. Class Name
+
 2. Psuedo Class
+
 3. Media Query
 
 Those three separations are clearly expressed in every Layout and Module.

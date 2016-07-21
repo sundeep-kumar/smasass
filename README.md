@@ -24,7 +24,7 @@ As state of an element can be represented in three categories:
 
 Those three separations are clearly expressed in every Layout and Module.
 
-#Quick Run
+### Quick Run
 
 1. Install sass if not done:
 http://sass-lang.com/install
@@ -37,10 +37,10 @@ In terminal run below commands-
 "sass main.scss main.css" for scss to css conversion, and
 "sass --watch main.scss:main.css" to notice change in .scss file and update your .css
 
-#Depth of Applicability
+### Depth of Applicability
 
 Since SASS3, being the superset of CSS3; the depth of applicability of syntax changed dramatically for the <SASS3 followers. The industry standard depth of selectors and applicability is being followed with the succinct separation of concoction items, i.e. easy to maintain in long run, scale to any extent and room any unveiled cases (like mixins etc.) to be included in future.
 
-#Isolating Dependencies
+### Isolating Dependencies
 
 Generated css file from compiled main.scss can isolate dependency of project, by separating vendor files and generated css in separate directory. 

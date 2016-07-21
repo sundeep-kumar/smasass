@@ -1,0 +1,48 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: loads all scss
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Load vendor first (Load css/sass version of bootstrap as per your needs)*/
+/*@import url('vendor/bootstrap/css/bootstrap.min.css');*/
+@import "vendor/bootstrap/sass/bootstrap";
+
+/*Then app theme*/
+@import "app_base/theme/app-default_var";
+
+/*After that app typography, base, state, layout and modules accordingly*/
+@import "app_base/app-typography";
+@import "app_base/app-state";
+@import "app_base/app-base";
+
+@import "app_base/layout/l-main";
+
+@import "app_base/layout/container/container-pseudo";
+@import "app_base/layout/container/container-js";
+@import "app_base/layout/container/container-mediaq";
+
+@import "app_base/layout/header/header-pseudo";
+@import "app_base/layout/header/header-js";
+@import "app_base/layout/header/header-mediaq";
+
+@import "app_base/layout/footer/footer-pseudo";
+@import "app_base/layout/footer/footer-js";
+@import "app_base/layout/footer/footer-mediaq";
+
+@import "app_base/layout/nav/nav-pseudo";
+@import "app_base/layout/nav/nav-js";
+@import "app_base/layout/nav/nav-mediaq";
+
+@import "app_base/layout/grid/grid-pseudo";
+@import "app_base/layout/grid/grid-js";
+@import "app_base/layout/grid/grid-mediaq";
+
+@import "app_base/modules/block/block-pseudo";
+@import "app_base/modules/block/block-js";
+@import "app_base/modules/block/block-mediaq";
+
+@import "app_base/modules/block2/block2-pseudo";
+@import "app_base/modules/block2/block2-js";
+@import "app_base/modules/block2/block2-mediaq";

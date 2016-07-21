@@ -1,0 +1,28 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for app base
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: App base interaction elements goes here...
+html {}
+body {}
+blockquote {}
+article,
+aside,
+section{}
+a {}
+label {}
+form {}
+select {}
+button {}
+input[type=text] {}
+input[type=email] {}
+input[type=radio] {}
+input[type=checkbox] {}...
+
+Note:Use !default whereever possible so that you can override inside layout and modules.
+*/
+
+.app-base:before{content:"app-base: loaded..."}

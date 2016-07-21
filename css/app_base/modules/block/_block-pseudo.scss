@@ -1,0 +1,50 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for app individual module classes
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Module class block interaction can be defined as:
+1. Box
+2. Border
+3. Background
+4. Text
+5. Other
+
+Under this file, non-relied pseudo classes can be defined as .title and .content
+
+.block {
+    width: 500px;
+    display: inline-block;
+
+    position: relative;
+    float: left;
+
+    border: 1px solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+    background-image:none;
+    font-size: 14px;
+    text-align:center;
+
+    .title{
+        padding:10px 20px;
+        font-size: 24px;
+    }
+    .title:hover{
+        font-size: 30px;
+    }
+
+    .content{
+        font-size: 15px;
+        height: 400px;
+        overflow-y:auto;
+    }
+}
+
+*/
+
+.block-pseudo:before{content:"block-pseudo: loaded..."}

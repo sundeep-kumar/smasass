@@ -1,0 +1,52 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for app individual module classes
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Module class block2 and its components state change with viewport interaction can be defined here as:
+
+For 767px viewport(mobile)
+@media screen and (max-width: 767px){
+    .block2 {
+        width: 300px;
+        display: block;
+        float: none;
+
+        .content{
+            height: 300px;
+        }
+    }
+}
+
+For 991px viewport(tablet)
+@media screen and (max-width: 991px){
+    .block2 {
+        width: 600px;
+        display: block;
+        float: none;
+
+        .content{
+            height: 400px;
+        }
+    }
+}
+
+For 1199px viewport(desktop)
+@media screen and (max-width: 1199px){
+    .block2 {
+        width: 500px;
+        display: inline-block;
+        float: left;
+
+        .content{
+            height: 600px;
+        }
+    }
+}
+
+
+*/
+
+.block2-mediaq:before{content:"block2-mediaq: loaded..."}

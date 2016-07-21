@@ -1,0 +1,43 @@
+﻿/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for all common app states
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Common app classes js based interactions can be defined here, 
+pseudo and media query states are to be defined in invividual layout and modules:
+
+changing state of button on click with jquery can be-
+
+In js file    
+$('button').click(function(){
+    $(button).addClass('is-loading');
+})
+
+And the respective lines can be defined here...
+
+button.is-loading {
+    -moz-transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+button.is-loading:before {
+	content: "";    
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	border-bottom: solid 2px;
+    left:0;
+    -webkit-transition: width .2s ease-in-out;
+	transition: width .2s ease-in-out;
+}
+button.is-loading:hover {
+    color: #1DE9B6;
+}
+button.is-loading:hover:before{
+    width:100%;
+}
+*/
+
+.app-state:before{content:"app-state: loaded..."}

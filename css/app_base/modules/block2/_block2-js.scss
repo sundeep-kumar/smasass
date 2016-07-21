@@ -1,0 +1,22 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for app individual module classes
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Module class block2 js based interactions can be defined here:
+changing state of .block2 button with jquery can be-
+
+In js file    
+$('#block2-btn').click(function(){
+    $(#block2-content).addClass('is-hidden');
+})
+
+And the respective lines can be defined here...
+#block2-content.is-hidden {
+    display:none;
+}
+*/
+
+.block2-js:before{content:"block2-js: loaded..."}

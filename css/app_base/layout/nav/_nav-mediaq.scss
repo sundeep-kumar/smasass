@@ -1,0 +1,52 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for layout individual module classes
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Module class l-nav and its components state change with viewport interaction can be defined here as:
+
+For 767px viewport(mobile)
+@media screen and (max-width: 767px){
+    .l-nav {
+        width: 300px;
+        display: block;
+        float: none;
+
+        .content{
+            height: 300px;
+        }
+    }
+}
+
+For 991px viewport(tablet)
+@media screen and (max-width: 991px){
+    .l-nav {
+        width: 600px;
+        display: block;
+        float: none;
+
+        .content{
+            height: 400px;
+        }
+    }
+}
+
+For 1199px viewport(desktop)
+@media screen and (max-width: 1199px){
+    .l-nav {
+        width: 500px;
+        display: inline-block;
+        float: left;
+
+        .content{
+            height: 600px;
+        }
+    }
+}
+
+
+*/
+
+.nav-mediaq:before{content:"nav-mediaq: loaded..."}

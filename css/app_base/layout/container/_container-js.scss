@@ -1,0 +1,23 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for layout individual module classes
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Module class container js based interactions can be defined here:
+changing state of .l-container button with jquery can be-
+
+In js file    
+$('#l-container-btn').click(function(){
+    $(#l-container-content).addClass('is-selected');
+})
+
+And the respective lines can be defined here...
+#l-container-content.is-selected {
+    opacity:0.8;    
+}
+
+*/
+
+.container-js:before{content:"container-js: loaded..."}

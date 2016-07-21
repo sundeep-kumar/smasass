@@ -1,2 +1,7 @@
 .sass-cache/
 *.css.map
+main.css
+main.min.css
+compilerconfig.json
+compilerconfig.json.defaults
+Web.config

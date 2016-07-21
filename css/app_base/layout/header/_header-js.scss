@@ -1,0 +1,23 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for layout individual module classes
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Module class header js based interactions can be defined here:
+changing state of .l-header button with jquery can be-
+
+In js file    
+$('#l-header-btn').click(function(){
+    $(#l-header-content).toggleClass('is-active');
+})
+
+And the respective lines can be defined here...
+#l-header-content.is-active {
+    color:#333;
+}
+
+*/
+
+.header-js:before{content:"header-js: loaded..."}

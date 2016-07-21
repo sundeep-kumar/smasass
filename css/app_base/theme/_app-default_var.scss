@@ -1,0 +1,19 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for app base theme
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Color variables of app can centrally be defined here as:
+
+$primary-color: #FA8072;
+$primaryDark-color: #F08080;
+$primaryXDark-color: #CD5C5C;
+$accent-color: #FF5733;
+$bg-color: #ffffff;
+$txt-color: #333333;
+
+*/
+
+.app-default_var:before{content:"app-default_var: loaded..."}

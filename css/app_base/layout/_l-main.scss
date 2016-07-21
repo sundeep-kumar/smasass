@@ -1,0 +1,19 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for app layout main
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: App laymout main interaction elements goes here...
+.l-main {}
+.l-main-content {}
+#main {}
+Use ID selectors only when it is common across 
+all components of the page
+and use class selectors where appropriate.
+
+Note:Use !default whereever possible so that you can override inside layout and modules.
+*/
+
+.l-main:before{content:"l-main: loaded..."}

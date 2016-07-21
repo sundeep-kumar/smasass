@@ -1,0 +1,23 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for layout individual module classes
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Module class footer js based interactions can be defined here:
+changing state of .l-footer button with jquery can be-
+
+In js file    
+$('#l-footer-btn').click(function(){
+    $(#l-footer-content).toggleClass('is-active');
+})
+
+And the respective lines can be defined here...
+#l-footer-content.is-active {
+    color:#333;
+}
+
+*/
+
+.footer-js:before{content:"footer-js: loaded..."}

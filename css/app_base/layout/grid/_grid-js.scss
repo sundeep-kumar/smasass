@@ -1,0 +1,22 @@
+/*
+Template Type: SMASASS Boiler Plate
+Description: Serves for layout individual module classes
+Author URI:https://github.com/sundeep-kumar/smasass
+Version: 1.0
+*/
+
+/*Example: Module class grid js based interactions can be defined here:
+changing state of .l-grid button with jquery can be-
+
+In js file    
+$('#l-grid-btn').click(function(){
+    $(#l-grid-content).toggleClass('is-active');
+})
+
+And the respective lines can be defined here...
+#l-grid-content.is-active {
+    color:#333;
+}
+*/
+
+.grid-js:before{content:"grid-js: loaded..."}
